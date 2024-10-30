@@ -1,0 +1,130 @@
+.footerContainer{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.411);
+}
+
+
+.horizontal{
+border: 1px solid #000;
+  height: 2px;
+  width: 2400px;
+  /* margin-left: 70px; */
+  margin-top: 10px;
+}
+.social{
+    /* background-color: rgba(128, 128, 128, 0.411); */
+    /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
+    display: flex;
+    /* gap: 5px; */
+    /* justify-content: right; */
+    /* padding-right: 90px; */
+    /* padding-bottom: 13px; */
+}
+
+.social a{
+    /* margin-top: 20px; */
+    font-size: 22.5px;
+    text-align: center;
+    width: 33px;
+    color: black;  
+    
+}
+
+.heading{
+    font-family: libre baskerville;
+      font-size:37px;
+      /* background-color: rgba(128, 128, 128, 0.411); */
+      color: black;
+}
+.heading2{
+    font-family: cormorant garamond;
+    font-size:17px;
+ padding-left: 70px;
+ /* background-color: rgba(128, 128, 128, 0.411); */
+ color: black;
+}
+.navbarList{
+    /* background-color: rgba(128, 128, 128, 0.411); */
+    display: flex;
+      padding: 5px; 
+
+}
+.no-bullets a{
+    font-size: medium;
+    color:black;
+    text-decoration: none;
+    font-family: cormorant garamond;
+    /* margin-top: 100px; */
+    margin-left: 60px;
+}
+.no-bullets{
+    
+    list-style: none;
+}
+.bullets{
+    margin-left: 300px;
+    /* margin-top: 70px; */
+}
+.bullets li{
+    color: black;
+    list-style: none;
+    margin-top: 5px;
+    font-family: cormorant garamond;
+    /* font-size: medium; */
+    
+}
+
+.flex{
+    display: flex;
+    /* justify-content:first baseline; */
+    /* background-color: rgba(128, 128, 128, 0.411); */
+    padding: 35px;
+}
+
+
+
+        @media(max-width:550px){
+            .flex{
+              
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                padding: 15px;
+               text-align: left;
+               gap: 5px;
+            }
+            .bullets{
+                margin-left: 20px;
+                margin-top: 0px;
+            }
+            .no-bullets a{
+                font-size: medium;
+                color:white;
+                text-decoration: none;
+                font-family: cormorant garamond;
+                /* margin-top: 100px; */
+                margin-left: 15px;
+            }
+            .heading2{
+                font-family: cormorant garamond;
+                font-size:17px;
+             /* padding-left: 70px; */
+            }
+            .social{
+                background-color: black;
+                /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
+                display: flex;
+                /* gap: 5px; */
+                justify-content: left;
+                padding-left: 70px;
+                /* padding-bottom: 13px; */
+            }
+            .horizontal{
+                border: 1px solid #000;
+                  height: 2px;
+                  width: 500px;
+                  /* margin-left: 70px; */
+                  margin-top: 10px;
+                }
+        }
+  
+  
