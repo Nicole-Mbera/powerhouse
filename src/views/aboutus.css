@@ -61,48 +61,24 @@ max-height: 100%;
         padding: 20px;
         /* background-color: aqua; */
     }
-    .individual{
-        width: 35%;
-        background-color: antiquewhite;
-        margin-left: 15px;
-
-    }
-    .individual img{
-        width: 40%;
-        height: 35vh;
-        /* object-fit: contain; */
-    }
-    .team-container {
-        text-align: center;
-        padding: 30px;
-        /* background-color: aqua; */
-      }
+  
+   
       
       h2 {
         font-size: 2em;
         margin-bottom: 20px;
       }
       
-      .team-grid {
+      /* .team-grid {
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         justify-content: center;
-      }
+      } */
       
-      .member {
-        text-align: center;
-        padding: 10px;
-        width: 30%;
-        background-color: rgb(240, 229, 229);
-      }
+     
       
-      .member img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 2px solid #ddd;
-      }
+    
       
       .member h3 {
         margin: 10px 0 5px;
@@ -116,10 +92,11 @@ max-height: 100%;
       
       
       .sub-team {
-        display: flex;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* align-items: center; */
         gap: 10px;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         width: 100%;
       }
       .work h1{
@@ -159,39 +136,40 @@ max-height: 100%;
       
       /* Styling for the team container */
       .team-container {
-        text-align: center;
+        /* text-align: center; */
         padding: 20px;
         overflow: hidden;
       }
       
       /* Applying animation to each team member */
       .member {
-        text-align: center;
-        padding: 20px;
-        width: 30%;
+        /* text-align: center; */
+        display: flex;
+        gap: 15px;
+        /* padding: 20px; */
+        width: 100%;
         background-color: rgb(240, 229, 229);
         opacity: 0; /* Initial opacity for animation */
         animation: fadeInUp 0.6s ease forwards; /* Trigger the fade-in animation */
         transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
-      
-      /* Delay the animation for each team member for a staggered effect */
-      .member:nth-child(1) { animation-delay: 0.1s; }
-      .member:nth-child(2) { animation-delay: 0.3s; }
-      .member:nth-child(3) { animation-delay: 0.5s; }
-      .member:nth-child(4) { animation-delay: 0.7s; }
-      .member:nth-child(5) { animation-delay: 0.9s; }
-      
-      /* Hover effect on team members */
-      .member:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      .paragraph{
+        /* background-color: rebeccapurple; */
+        padding: 5px;
+        width: 65%;
       }
       
+      /* Delay the animation for each team member for a staggered effect */
+      
+      
+      /* Hover effect on team members */
+      
+      
       .member img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+        width: 50%;
+        height: 37vh;
+        object-fit: cover;
+        /* border-radius: 50%; */
         border: 2px solid #ddd;
         transition: transform 0.3s ease;
       }

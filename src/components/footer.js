@@ -34,14 +34,15 @@ const Footer = () => {
                     
                   
                     </ul>
-                    
-    </div>
-    <div className="social">
+                    <div className="social-footer">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
                 </div>
+                    
+    </div>
+   
  
                 
     </div>      

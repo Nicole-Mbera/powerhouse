@@ -46,29 +46,34 @@ const Aboutus= () => {
         <div className="sub-team">
           <div className="member">
             <img src={cindy}  alt="Member 1" />
+            <div className="paragraph">
             <h3>Cindy Kayihura</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p> I'm passionate about empowering my community and strive to make a lasting impact through meaningful initiatives and support. Although I might describe myself as "socially anti-social," I’m always up for connecting with others who share the same goal of building a stronger, more inclusive community. My journey is driven by a commitment to creating positive change.</p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
                 </div>
+                </div>
           </div>
           <div className="member">
             <img src={sarah}  alt="Member 1" />
+            <div className="paragraph">
             <h3>Sarah Aisha</h3>
-            <p> An extroverted introvert who excels at bringing people together while quietly observing from the sidelines. Genuine curiosity fuels a passion for helping others thrive, making her supportive. Sarah balances love for social interaction with a preference for introspection, creating meaningful connections along the way. </p>
+            <p> Meet Sarah, an extroverted introvert who excels at bringing people together while quietly observing from the sidelines. Their genuine curiosity fuels a passion for helping others thrive, making them a supportive presence in any social setting. Sarah balances their love for social interaction with a preference for introspection, creating meaningful connections along the way. </p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
+                </div>
                 </div>
           </div>
   
           <div className="member">
             <img src={denzel}  alt="Member 2" />
+            <div className="paragraph">
             <h3>Denzel Uwizera</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
             <div className="social">
@@ -77,31 +82,35 @@ const Aboutus= () => {
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
                 </div>
-           
+                </div>
           </div>
         
           <div className="member">
             <img src={naomi}  alt="Member 3" />
+            <div className="paragraph">
             <h3>Harmony Naomi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>Meet Harmony, Calmness with high energy right in the heart of PowerHouse! Not only is she an energetic and passionate environmentalist but she adds harmony and life into the company. When not driving the team forward, Harmony is an adventurer at heart, and since attitude determines altitude, is always set to mix enthusiasm with serenity to create change. </p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
+                </div>
                 </div>
           </div>
           
           <div className="member">
             <img src={nicole} alt="Member 4" />
+            <div className="paragraph">
             <h3>Nicole Mbera</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>I’m passionate about blending tech and medicine to create a more holistic, people-centered approach to healthcare. Whether it’s using AI to empower doctors or finding ways to make care more accessible, I’m all about pushing the boundaries of what’s possible in health tech. Outside work, you’ll probably find me hiking a new trail, cycling around town, or catching up with friends over some good worship music. </p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>
                 </div>
+          </div>
           </div>
         </div>
       </div>
