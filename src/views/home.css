@@ -2,7 +2,9 @@
 height: auto;
 /* background-color: aqua; */
 }
+
 .divtwo{display: flex;}
+
 
 .words{
     padding: 100px;
@@ -20,8 +22,13 @@ height: auto;
 }
 
 .yet{
-    height: 80vh;
-    background-color: rgba(128, 128, 128, 0.411);
+    height: 100vh;
+    /* background-color: rgba(128, 128, 128, 0.411); */
+}
+.yet img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
 }
 .photos{
     /* height: 80vh; */
@@ -82,7 +89,7 @@ height: auto;
 
 .mission{
     display: flex;
- background-color: rgba(128, 128, 128, 0.411);;
+ background-color: rgba(128, 128, 128, 0.411);
 }
 .images{
     width: 30%;
@@ -93,6 +100,35 @@ height: auto;
     height: 35vh;
     margin-top: 12px;
 }
+.solution{
+ padding: 40px;
+    display: flex;
+ background-color: rgb(240, 229, 229);
+}
+.norsken{
+    width: 55%;
+    margin-left: 20px;
+    
+}
+.norsken img{
+height: 70vh;
+width: 100%;
+}
+.words-norsken{
+    padding: 30px;
+    text-align: justify;
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.words-norsken h1{
+    text-align: left;
+    font-size: x-large;
+    /* font-weight: 600; */
+}
+.words-norsken p{
+    margin-top: 10px;
+}
+
 .yet-white{
     height: 50vh;
     background-color: white;

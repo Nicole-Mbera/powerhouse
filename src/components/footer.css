@@ -16,7 +16,7 @@ border: 1px solid #000;
     /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
     display: flex;
     /* gap: 5px; */
-    /* justify-content: right; */
+    justify-content: center;
     /* padding-right: 90px; */
     /* padding-bottom: 13px; */
 }

@@ -3,11 +3,15 @@ import "./home.css"
 import Homelayout from "../components/homelayout"
 import unemployed from "../assets/images/unemployed.png"
 import employed from "../assets/images/employed.jpg"
+import norsken from "../assets/images/norsken.jpg"
+import best from "../assets/images/best.jpg"
 const Home = () => {
   return (
     <Homelayout>
     <div className='home-container'>
-    <div className="yet"></div>
+    <div className="yet">
+    <img src={best}></img>
+    </div>
       <div className="culture">
         <div className="divtwo">
                     <div className="words">
@@ -36,7 +40,29 @@ const Home = () => {
 <p>Our think tank mission is to uplift women, take them out of restrictive boxes, and fuel an inclusive future of economic independence and growth.</p>
                     </div>
       </div>
-      <div className="yet-white"></div>
+    
+      <div className="solution">
+
+<div className="words-norsken">
+                        <h1> Solution</h1>
+                        <p> Our solution is to bridge the gap between investers, job seekers,employers and trainers. This bridge will be a physical and digital connection hub. The aspects that will shape our women centered connection hub:
+                        </p>
+    <p>1. Job matching & Networking </p>
+    <p>2.Mentorship & Training programs </p>
+    <p>  3.Entreprenship support </p>
+    <p> 4. Co- working spaces  </p>
+
+    
+  
+   
+
+
+<p>Through these initiatives,  we visualize those young women, strong and equipped to battle life with the appropriate tools, morale, and resources. Support EmpowerHer and be part of the fight for the rights of women and girls with employment opportunities. Combined, we are manning and rebuying the Rwandan workforce's human capital.</p>
+                    </div>
+                    <div className="norsken">
+<img src={norsken}/>
+</div>
+      </div>
     </div>
     </Homelayout>
   );

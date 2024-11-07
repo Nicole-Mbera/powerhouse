@@ -1,5 +1,5 @@
 import React from "react";
-import { InstagramOutlined, FacebookOutlined, TwitterOutlined , LinkedinOutlined, CopyrightOutlined} from "@ant-design/icons";
+import { InstagramOutlined, TwitterOutlined , LinkedinOutlined} from "@ant-design/icons";
 import "./footer.css"
 import logo from "../assets/images/logo2cropped.png"
 
@@ -38,7 +38,6 @@ const Footer = () => {
     </div>
     <div className="social">
                 
-                <a href="https://www.facebook.com/anaclet.art/"><FacebookOutlined /></a>
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
                 <a href="https://www.instagram.com/umuringa_fashion_code/"><InstagramOutlined /></a>
                 <a href="https://web.whatsapp.com/"><TwitterOutlined /></a>

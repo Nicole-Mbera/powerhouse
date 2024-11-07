@@ -1,0 +1,204 @@
+.work {
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.555)50%, rgba(0, 0, 0, 0.555)50%), url("../assets/images/workcropped.jpg");
+    background-size: cover;
+
+}
+.work img{
+width: 50%;
+height: 60vh;
+align-items: center;
+object-fit: cover;
+}
+
+.vmc{
+    display: flex;
+    padding: 80px;
+    gap: 155px;
+}
+.vision{
+    width: 30%;
+    /* background-color: blue; */
+}
+.vision h1{
+    font-family:libre baskerville;
+    text-align: center;
+}
+.icon{
+display: flex;
+height: 20vh;
+width:100%;
+/* background-color: aquamarine; */
+justify-content: center; 
+align-items: center;     
+}
+.icon img{
+max-width: 100%;         
+max-height: 100%; 
+}
+
+.vision p{
+    font-weight: lighter;
+    font-family: cormorant garamond;
+    margin-top: 10px;
+    text-align: center;
+}
+.vertical{
+    border-left: 2px solid #000;
+      height: 335px;
+      /* margin-left: 70px; */
+      /* margin-top: 10px; */
+    }
+    .vertical-1{
+        border-left: 2px solid #ffffff00;
+          height: 205px;
+          margin-left: 120px;
+          /* margin-top: 10px; */
+        }
+    .introduction{
+        display: flex;
+        padding: 20px;
+        /* background-color: aqua; */
+    }
+    .individual{
+        width: 35%;
+        background-color: antiquewhite;
+        margin-left: 15px;
+
+    }
+    .individual img{
+        width: 40%;
+        height: 35vh;
+        /* object-fit: contain; */
+    }
+    .team-container {
+        text-align: center;
+        padding: 30px;
+        /* background-color: aqua; */
+      }
+      
+      h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      
+      .team-grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .member {
+        text-align: center;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(240, 229, 229);
+      }
+      
+      .member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #ddd;
+      }
+      
+      .member h3 {
+        margin: 10px 0 5px;
+        font-size: 1.1em;
+      }
+      
+      .member p {
+        font-size: 0.9em;
+        color: gray;
+      }
+      
+      
+      .sub-team {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .work h1{
+        text-align: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 77px;
+        /* margin-top: 30px; */
+      }
+      .work h2{
+        text-align: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        /* margin-top: 30px; */
+      }
+      .header-underline {
+        width: 80%;
+        height: 3px;
+        margin: 10px auto;
+        border: 2px solid white;
+      }
+      .fadeIn {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+      }
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      /* Styling for the team container */
+      .team-container {
+        text-align: center;
+        padding: 20px;
+        overflow: hidden;
+      }
+      
+      /* Applying animation to each team member */
+      .member {
+        text-align: center;
+        padding: 20px;
+        width: 30%;
+        background-color: rgb(240, 229, 229);
+        opacity: 0; /* Initial opacity for animation */
+        animation: fadeInUp 0.6s ease forwards; /* Trigger the fade-in animation */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      /* Delay the animation for each team member for a staggered effect */
+      .member:nth-child(1) { animation-delay: 0.1s; }
+      .member:nth-child(2) { animation-delay: 0.3s; }
+      .member:nth-child(3) { animation-delay: 0.5s; }
+      .member:nth-child(4) { animation-delay: 0.7s; }
+      .member:nth-child(5) { animation-delay: 0.9s; }
+      
+      /* Hover effect on team members */
+      .member:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      }
+      
+      .member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #ddd;
+        transition: transform 0.3s ease;
+      }
+      
+      .member img:hover {
+        transform: scale(1.1);
+      }
+      .fadeIn {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
