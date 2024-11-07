@@ -98,7 +98,7 @@ border: 1px solid #000;
             }
             .no-bullets a{
                 font-size: medium;
-                color:white;
+                /* color:white; */
                 text-decoration: none;
                 font-family: cormorant garamond;
                 /* margin-top: 100px; */
@@ -110,12 +110,12 @@ border: 1px solid #000;
              /* padding-left: 70px; */
             }
             .social{
-                background-color: black;
+                /* background-color: black; */
                 /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
                 display: flex;
                 /* gap: 5px; */
                 justify-content: left;
-                padding-left: 70px;
+                padding-left: 42px;
                 /* padding-bottom: 13px; */
             }
             .horizontal{

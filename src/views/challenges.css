@@ -93,8 +93,17 @@
 
   
 @media(max-width:912px){
+    .image-container{
+        width: 100%;
+    }
+    .youtube-logo{
+        width: 20px;
+    }
+    .descriptive{
+        padding: 10px;
+    }
     .row img{
-        height: 30vh;
+        height: 40vh;
  
     
     }

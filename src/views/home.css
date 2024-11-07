@@ -89,7 +89,7 @@ height: auto;
 
 .mission{
     display: flex;
- background-color: rgba(128, 128, 128, 0.411);
+ /* background-color: rgba(128, 128, 128, 0.411); */
 }
 .images{
     width: 30%;
@@ -103,7 +103,8 @@ height: auto;
 .solution{
  padding: 40px;
     display: flex;
- background-color: rgb(240, 229, 229);
+ background-color: white
+ ;
 }
 .norsken{
     width: 55%;
@@ -132,4 +133,109 @@ width: 100%;
 .yet-white{
     height: 50vh;
     background-color: white;
+}
+@media screen {
+    @media(max-width:600px){
+        .yet{
+            height: 50vh;
+            width: auto;
+            /* background-color: rgba(128, 128, 128, 0.411); */
+        }
+        .yet img{
+            object-fit: cover;
+            width: 100%;
+            height: 50vh;
+        }
+        .divtwo{
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .words{
+            padding: 20px;
+            text-align: justify;
+            width: 100%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .photos{
+            /* height: 80vh; */
+            width: 100%;
+            /* background-color: darkred; */
+            /* margin-left: 100px; */
+            display: flex;
+            padding: 30px;
+        }
+        .photo1 {
+            height: 13vh;
+            width: 210px;
+            background-color: darksalmon;
+            margin-left: 0px;
+            margin-top: 0px;
+            background-image: url(../assets/images/traditional.jpg);
+            background-size: 100%;
+            background-position: center;
+            transition: 1s;
+            /* cursor: zoom-in; */
+        }
+       
+        .photo2{
+            height: 15vh;
+            width: 220px;
+            background-color: black;
+            margin-left: -85px;
+            margin-top: 30px;
+            background-image: url(../assets/images/flag.jpg);
+            background-size: 100%;
+            /* background-position: center; */
+            transition: 1s;
+            /* cursor: zoom-in; */
+        }
+       
+        .photo3{
+            height: 13vh;
+            width: 210px;
+            background-color: darksalmon;
+            margin-left: -315px;
+            margin-top: 125px;
+            background-image: url(../assets/images/drums.jpg);
+            background-size: 100%;
+            background-position: center;
+            transition: 1s;
+            /* cursor: zoom-in; */
+        }
+        .mission{
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .images{
+            width: 100%;
+            margin-left: 0px;
+            padding: 20px;
+        }
+        .images img{
+            width: 100%;
+            height: 25vh;
+            margin-top: 12px;
+        }
+        .solution{
+            padding: 20px;
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+           }
+           .norsken{
+               width: 100%;
+               margin-left: 0px;
+               
+           }
+           .norsken img{
+           height: 25vh;
+           width: 100%;
+           }
+           .words-norsken{
+            padding: 30px;
+            text-align: justify;
+            width: 100%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+    }
 }

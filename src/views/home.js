@@ -12,7 +12,7 @@ const Home = () => {
     <div className="yet">
     <img src={best}></img>
     </div>
-      <div className="culture">
+      
         <div className="divtwo">
                     <div className="words">
                         <h1> Meet the PowerHouse</h1>
@@ -23,8 +23,7 @@ const Home = () => {
                         <div className="photo2"></div>
                         <div className="photo3"></div>
                     </div>
-      </div>
-      
+    
      
     </div>
     <div className="mission">
@@ -49,7 +48,7 @@ const Home = () => {
                         </p>
     <p>1. Job matching & Networking </p>
     <p>2.Mentorship & Training programs </p>
-    <p>  3.Entreprenship support </p>
+    <p> 3.Entreprenship support </p>
     <p> 4. Co- working spaces  </p>
 
     
