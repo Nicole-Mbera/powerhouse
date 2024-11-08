@@ -61,7 +61,7 @@ const Aboutus= () => {
             <img src={sarah}  alt="Member 1" />
             <div className="paragraph">
             <h3>Sarah Aisha</h3>
-            <p> Meet Sarah, an extroverted introvert who excels at bringing people together while quietly observing from the sidelines. Their genuine curiosity fuels a passion for helping others thrive, making them a supportive presence in any social setting. Sarah balances their love for social interaction with a preference for introspection, creating meaningful connections along the way. </p>
+            <p> Meet Sarah, an extroverted introvert who excels at bringing people together while quietly observing from the sidelines. Her genuine curiosity fuels a passion for helping others thrive, making her a supportive presence in any social setting. Sarah balances her love for social interaction with a preference for introspection, creating meaningful connections along the way. </p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
