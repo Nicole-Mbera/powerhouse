@@ -75,7 +75,7 @@ const Aboutus= () => {
             <img src={denzel}  alt="Member 2" />
             <div className="paragraph">
             <h3>Denzel Uwizera</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>Meet Denzel, a passionate advocate for orphanages and community empowerment. Driven by a commitment to uplift vulnerable populations, he dedicates himself to meaningful social impact. Outside of his philanthropic efforts, he enjoys the game of basketball, blending his competitive spirit with his drive to make a difference. </p>
             <div className="social">
                 
                 <a href="https://www.linkedin.com/in/tuyishime-anaclet-04421a230/?originalSubdomain=rw"><LinkedinOutlined /></a>
