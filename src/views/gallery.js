@@ -14,6 +14,7 @@ import naomi from "../assets/images/elevator.jpg";
 import jump from "../assets/images/jump.jpg";
 import  sit from "../assets/images/sit.jpg";
 import stand from "../assets/images/stand.jpg";
+import green from "../assets/images/green.jpg"
 
 // Gallery container with masonry effect
 const GalleryContainer = styled.div`
@@ -78,7 +79,7 @@ const CloseButton = styled.button`
 `;
 
 // Array with imported images
-const images = [work, present, help, chal6, tyres,denzel, naomi, jump, sit, stand];
+const images = [work, present, help, chal6, tyres,denzel, naomi, jump, sit, stand, green];
 
 const Gallery = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);

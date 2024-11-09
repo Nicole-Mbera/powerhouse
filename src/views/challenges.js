@@ -57,7 +57,7 @@ const Challenges = () => {
                 </div>
                 <div className="rowl">
                 <div className="image-container">
-        <img src={help} alt="Tyres" className="thumbnail-image" />
+        <img src={green} alt="Tyres" className="thumbnail-image" />
         <img
             src={youTube} // replace with your YouTube logo URL or import
             alt="YouTube Logo"
