@@ -51,15 +51,11 @@ const Home = () => {
     <p> 3.Entreprenship support </p>
     <p> 4. Co- working spaces  </p>
 
-    
-  
-   
-
-
 <p>Through these initiatives,  we visualize those young women, strong and equipped to battle life with the appropriate tools, morale, and resources. Support EmpowerHer and be part of the fight for the rights of women and girls with employment opportunities. Combined, we are manning and rebuying the Rwandan workforce's human capital.</p>
                     </div>
                     <div className="norsken">
 <img src={norsken}/>
+<div className="button"><a href="https://ckayihura1.wixsite.com/empowerher-connect-1">prototype</a> </div>
 </div>
       </div>
     </div>
